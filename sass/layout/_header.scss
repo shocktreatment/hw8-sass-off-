@@ -1,0 +1,120 @@
+.menu-open {
+    display: none;
+}
+
+.mob-menu {
+    display: none;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #ececec;
+
+    background-color: #fff;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    margin-right: 93px;
+
+    color: var(--black-color);
+}
+
+.web {
+    color: var(--accent-color);
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    color: var(--main-text-color);
+    transition: 
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+
+.current {
+    position: relative;
+    height: 100%;
+    padding-bottom: 32px;
+    color: #2196f3;
+}
+
+.current::after {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    display: block;
+    left: 0;
+    bottom: 0;
+    background: #2196f3;
+    border-radius: 2px;
+    margin-bottom: 0.5px;
+}
+
+
+.connects-list {
+    display: flex;
+    margin-left: auto;
+}
+
+.connects-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.connects-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    color: var(--other-row-color);
+    transition: 
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.connects-link:hover,
+.connects-link:focus {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+.contact-icon {
+    fill: currentColor;
+    margin-right: 10px;
+}

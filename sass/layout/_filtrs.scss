@@ -1,0 +1,38 @@
+.filtr-list {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.filtr-item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.filtr-btn {
+    background: #f5f4fa;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    padding: 6px 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-text-color);
+    transition: 
+        box-shadow 500ms ease-in, background-color 300ms linear, color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+        box-shadow 500ms ease-out, background-color 300ms linear, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filtr-btn:hover,
+.filtr-btn:focus {
+    box-shadow: 
+        0px 3px 1px rgba(0, 0, 0, 0.1), 
+        0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    background: var(--accent-color);
+    color: var(--white-color);
+}

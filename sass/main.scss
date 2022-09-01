@@ -1,0 +1,21 @@
+@import './utils/variables';
+@import './utils/hidden';
+@import './base/reset';
+@import './components/general';
+
+@import "./layout/header";
+@import './layout/hero';
+@import './layout/feature';
+@import './layout/work';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/soc-network';
+@import './layout/mailing';
+@import './layout/filtrs';
+@import './layout/projects';
+
+@import './components/modal';
+@import './components/mob';
+
+@import './utils/mixins';

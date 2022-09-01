@@ -1,0 +1,46 @@
+.soc-network {
+    margin-left: 70px;
+}
+
+.soc-network-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+    color: var(--white-color);
+}
+
+.soc-network-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.soc-network-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.soc-network-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(255, 255, 255, 0.1);
+    color: #afb1b8;
+
+    transition: 
+        background-color 300ms linear, color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+        background-color 300ms linear, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.soc-network-link:hover,
+.soc-network-link:focus {
+    background-color: var(--accent-color);
+    color: #fff;
+}
